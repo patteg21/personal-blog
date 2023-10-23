@@ -2,10 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+/* ref #14 */
+/* https://visme.co/blog/website-color-schemes/ */
+
 #root {
     background-color: #efe1b9;
     color: black;
     margin: 0px;
+    width: 100%;
 }
 
 .App{

@@ -12,7 +12,7 @@ import About from './About/About'
 function App() {
   return (
     <Router>
-      <div className='App text-center'>
+      <div className='App text-center h-screen bg-white'>
           <Navigation />
         <Routes >
           <Route path="/" exact element={<Home />} />
